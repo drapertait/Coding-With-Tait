@@ -1,0 +1,68 @@
+#home {
+    background-image: url('dark\ circle.webp');
+    background-size: contain;
+    background-position: left;
+    background-color: #212529;
+    color:white;
+}
+
+#skills {
+    background-image: url('light\ theme\ skills.webp');
+    background-size: contain;
+    background-position: center;
+    
+}
+
+#projects {
+    background-image: url('dark\ theme.webp');
+    background-size: contain;
+    background-position: unset;
+    color:white;
+}
+
+#contact {
+    background-image: url('my\ pic.jpg');
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color: #212529;
+    color:white;
+}
+
+.slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.slide {
+    min-height: 500px; /* or any other appropriate value */
+}
+
+
+@media (max-width: 768px) {
+    .slide {
+        min-height: 300px; /* shorter height for smaller screens */
+    }
+}
+
+.slide {
+    background-attachment: fixed;
+}
+
+
+.slide {
+    background-position: top center; /* Adjust as needed */
+}
+
+nav.navbar {
+    height: 200px; /* Adjust this value as needed */
+}
+
+nav.navbar {
+    padding-top: 40px; /* Adjust top padding */
+    padding-bottom: 40px; /* Adjust bottom padding */
+}
+
+nav.navbar a {
+    font-size: 3rem; /* Adjust this value as needed */
+}
